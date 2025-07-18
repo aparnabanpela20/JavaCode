@@ -47,7 +47,7 @@ public class MergeSort {
             j++;
             k++;
         }
-        for (int t = si; t <= ei; t++) {
+        for (int t = si; t < temp.length; t++) {
             arr[t] = temp[t - si];
         }
     }
